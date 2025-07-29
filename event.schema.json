@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Event",
+  "definitions": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "enum": ["event"] },
+        "id": { "type": "string" },
+        "turn": { "type": "integer" },
+        "effects": { 
+          "type": "object",
+          "additionalProperties": { "type": "integer" }
+        }
+      },
+      "required": ["id", "turn"]
+    }
+  }
+}

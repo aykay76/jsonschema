@@ -1,0 +1,18 @@
+[
+  {
+    "type": "country",
+    "id": "UK",
+    "name": "United Kingdom",
+    "x": 100,
+    "y": 200,
+    "resources": { "oil": 5000 }
+  },
+  {
+    "type": "country",
+    "id": "CN",
+    "name": "China",
+    "x": 110,
+    "y": 210,
+    "resources": { "water": 3000 }
+  }
+]

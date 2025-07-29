@@ -1,0 +1,14 @@
+[
+  {
+    "type": "event",
+    "id": "drought_2025",
+    "turn": 10,
+    "effects": { "resources.water": -20 }
+  },
+  {
+    "type": "event",
+    "id": "recession_2026",
+    "turn": 20,
+    "effects": { "GDP": -10 }
+  }
+]
